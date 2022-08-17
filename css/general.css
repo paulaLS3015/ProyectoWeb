@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------- NAVIGATION BAR ----------- */
+.menu {
+    border-bottom: 2px solid #00A693;
+    background-color: white;
+    text-align: center;
+}
+
+.menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F2A569;
+}
+
+.menu a:hover {
+    color: #00A693;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+    margin-top: 3%;
+    background: url('../images/bg-footer.jpg') no-repeat 100% 40%;
+    height: 180px;
+    padding: 1%;
+}
+
+footer .info,
+footer .info a,
+footer .copyright {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding-bottom: 1%;
+}
+
+footer .numeros,
+footer .correos,
+footer .redes {
+    border-left: 1px solid white;
+    padding-left: 2%;
+}
+
+footer .copyright {
+    text-align: center;
+    padding-top: 2%;
+    color: rgba(255, 255, 255, 50%);
+}

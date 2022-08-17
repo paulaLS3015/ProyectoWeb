@@ -1,0 +1,101 @@
+/* ----------- PRIMER SECCION ----------- */
+/* SLOGAN, VER CONTACTOS Y HORARIOS */
+#parte1 {
+    background: url('../images/bg-parte1.jpg') no-repeat 20% 80%;
+    height: 700px;
+}
+
+#parte1 .links .horario,
+.container .links .cita {
+    margin: 0 auto;
+    border-radius: 20%;
+    text-align: center;
+}
+
+#parte1 .links .horario a,
+.container .links .cita a {
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.slogan {
+    font-size: 90px;
+    margin: 0 auto;
+    border-radius: 20%;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ----------- SEGUNDA SECCION ----------- */
+/* HORARIOS Y SERVICIO A DOMICILIO */
+
+#parte2 {
+    background: url('../images/bg-parte2.jpg') repeat-x center top;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+#parte2 .info{
+    padding-top: 2%;
+}
+
+#parte2 .info h1 {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#parte2 .detalles {
+    padding: 5%;
+}
+
+#parte2 .detalles h1,
+#parte2 .detalles svg {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#parte2 .detalles .icon {
+    padding-bottom: 10%;
+}
+
+#parte2 .detalles .ubicacion a {
+    color: #00A693;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 30%);
+    padding: 2%;
+}
+
+/* ----------- TERCERA SECCION ----------- */
+/* FILOSOFÍA Y FORMULARIO DE CITA */
+#parte3{
+    padding-top: 2%;
+    text-align: justify;
+}
+
+#parte3 h1{
+    color: #00A693;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+#parte3 img{
+    height: 150px;
+    float: left;
+    padding-right: 5%;
+}
+
+#parte3 form .btn{
+    background-color: #F2A569;
+    border: #cf7938;
+    width: 100px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+}
