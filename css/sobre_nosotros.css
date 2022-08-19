@@ -1,0 +1,22 @@
+.container h1{
+    color: #00A693;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.informacion {
+    padding-top: 5%;
+}
+
+.informacion img{
+    width: 5%;
+}
+
+.informacion a{
+    color: #F2A569;
+    text-decoration: none;
+}
+
+.informacion a:hover{
+    color: #00A693;
+}

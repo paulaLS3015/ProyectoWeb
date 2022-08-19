@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veterinaria Sylvester</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/general.css">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="menu navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="logo" src="images/logo.png" alt="Logotipo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--CUADRO PARA PANTALLAS PEQUEÑAS-->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactar">Contáctenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creador.html">Creador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="parte1" class="row justify-content-center align-items-center">
+
+            <div class="col-md-8 slogan justify-content-center align-items-center"
+                style="background-color: rgba(0,166,147,50%);">SIEMPRE DISPONIBLE PARA LA
+                SALUD
+            </div>
+
+            <div class="row links justify-content-center align-items-center">
+
+                <div class="col-md-3 horario" style="background-color: rgba(242,165,105, 50%);"><a
+                        href="#horarioAtencion">HORARIO DE
+                        ATENCIÓN</a>
+                </div>
+
+                <div class="col-md-3 cita" style="background-color: rgba(242,165,105, 50%);"><a
+                        href="#citaProgramada">SOLICITE UNA
+                        CITA</a>
+                </div>
+            </div>
+        </div>
+        <div id="parte2">
+            <div class="row info justify-content-center align-items-center">
+                <div class="col-sm-2">
+                    <h1>SOLO PARA EMERGENCIAS</h1>
+                </div>
+                <div class="col-sm-2">
+                    <h1>800-SYLVESTER</h1>
+                </div>
+                <div class="col-sm-2">
+                    <h1>ABIERTO 24/7</h1>
+                </div>
+            </div>
+            <div class="row detalles">
+                <div class="col-md-4 ubicacion">
+                    <h1>UBICACIÓN</h1>
+                    <div class="icon" style="text-align: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor" class="bi bi-geo-fill"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                        </svg>
+                    </div>
+
+                    <p style="text-align: justify;">Nos encontramos en una calle principal muy céntrica. <br> <br> Para
+                        ver la ubicación desde Google Maps puedes entrar a la siguiente página.
+                    </p>
+
+                    <a href="ubicacion.html">Ubicación</a>
+                </div>
+                <div class="col-md-4 horario">
+                    <h1 id="horarioAtencion">HORARIO DE ATENCIÓN</h1>
+
+                    <div class="icon" style="text-align: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor" class="bi bi-clock"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                        </svg>
+                    </div>
+
+                    <div class="row" style="border-bottom: 1px solid white;">
+                        <div class="col-sm-6">Lunes a Viernes</div>
+                        <div class="col-sm-6" style="text-align: right;">8:30 a.m. - 7:30 p.m.</div>
+                    </div>
+                    <div class="row" style="border-bottom: 1px solid white;">
+                        <div class="col-sm-6">Sábados y Domingos</div>
+                        <div class="col-sm-6" style="text-align: right;">9:30 a.m. - 5:00 p.m.</div>
+                    </div>
+                </div>
+                <div class="col-md-4 domicilio">
+                    <h1>A DOMICILIO</h1>
+
+                    <div class="icon" style="text-align: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor"
+                            class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+                        </svg>
+                    </div>
+
+                    <p style="text-align: justify;">Ofrecemos servicios a domicilio de distintos tipos. <br> <br> Tales
+                        como corte de pelo a perros y
+                        gatos. Corte de uñas a perros y gatos. Terapia de masajes y recuperación de movilidad para
+                        mascotas. Cambio e instalación de hábitat de animales exóticos como reptiles.</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="parte3" class="row">
+            <div class="col-md-4">
+                <h1 id="citaProgramada">Nuestra Filosofía de Atención</h1>
+                <img src="images/filosofía.jpg" alt="Veterinario con Perro">
+                <p>La Veterinaria Sylvester, no pretende ser nada más que un centro de referencia y confianza para
+                    los dueños y sus mascotas en el cuidado de ambos, una ayuda cercana y familiar para crecer,
+                    envejecer y superar los momentos complicados que se puedan presentar en el día a día con vuestros
+                    amigos a 4 patas. Aprender a educar, a cuidar, a fortalecer el enlace afectivo, a disfrutar
+                    plenamente de los beneficios incalculables de lo que supone la tenencia responsable de mascotas.
+                    <br>
+
+                    Nuestra filosofía está basada en los siguientes valores:
+                <ul>
+                    <li>Trabajamos con vocación profesional.</li>
+                    <li>Todo lo que hacemos, lo hacemos con empeño y entusiasmo.</li>
+                    <li>Respetamos estrictamente los códigos de buena conducta, ética profesional y los derechos de los
+                        animales.</li>
+                    <li>Nos vamos renovando constantemente para estar siempre al tanto de las ultimas novedades
+                        veterinarias.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-8" style="border-left: 2px solid #F2A569;">
+                <h1>Obtener una Cita Programada</h1>
+                <h2 style="font-size: 20px; font-weight: bold;">Llene el siguente formulario:</h2>
+                <br /> 
+                <form id="formCita">
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre y Apellidos</span>
+                        <input type="text" aria-label="Nombre" name="Nombre" class="form-control">
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-text">Correo Electrónico</span>
+                        <input type="email" aria-label="correo" name="correo" class="form-control"
+                            placeholder="xxx@example.com">
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-text">Número Telefónico</span>
+                        <input type="text" aria-label="telefono" name="telefono" class="form-control"
+                            placeholder="0000 0000">
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre de la Mascota</span>
+                        <input type="text" aria-label="NombreMascota" name="NombreMascota" class="form-control">
+                    </div>
+                    <br />
+                    <p>Género de la Mascota:</p>
+                    <div class="generoMascota">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Genero" id="hembra" value="hembra"
+                                name="hembra" checked>
+                            <label class="form-check-label" for="hembra">Hembra</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Genero" id="macho" value="macho"
+                                name="macho">
+                            <label class="form-check-label" for="macho">Macho</label>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-text">Alergias de la Mascota</span>
+                        <textarea class="form-control" aria-label="Alergias" name="Alergias"></textarea>
+                    </div>
+                    <br />
+                    <p>Servicios a contratar: </p>
+                    <fieldset class="serviciosOpciones">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineRadiografia" value="Radiografia"
+                                name="servicios">
+                            <label class="form-check-label" for="inlineRadiografia">Radiografía</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineLavado_Dental"
+                                value="Lavado_Dental" name="servicios">
+                            <label class="form-check-label" for="inlineLavado_Dental">Lavado Dental</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineReproduccion" value="Reproduccion"
+                                name="servicios">
+                            <label class="form-check-label" for="inlineReproduccion">Laboratorio de Reproducción</label>
+                        </div>
+                        <br />
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineChequeo" value="Chequeo"
+                                name="servicios">
+                            <label class="form-check-label" for="inlineChequeo">Chequeo General</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCirugia" value="Cirugia"
+                                name="servicios">
+                            <label class="form-check-label" for="inlineCirugia">Cirugía</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCastracion" value="Castracion"
+                                name="servicios">
+                            <label class="form-check-label" for="inlineCastracion">Castración</label>
+                        </div>
+                    </fieldset>
+                    <br /><br />
+                    <div class="input-group">
+                        <span class="input-group-text">Observaciones</span>
+                        <textarea class="form-control" aria-label="observaciones" name="Observaciones"></textarea>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-text">Total de la Cotización</span>
+                        <input type="text" aria-label="Nombre" class="form-control" id="totalCotizacion"
+                            name="totalCotizacion" disabled>
+                    </div>
+                    <br /><br />
+                    <div class="col-12" style="align-items: right;">
+                        <button class="btn btn-primary" type="submit" id="enviarBtn" disabled>ENVIAR</button>
+                        <button class="btn btn-primary" type="button" onclick="calcularPrecio()">CALCULAR</button>
+                    </div>
+
+                    <!--CODIGO DEL FORM EXTRAIDO DE 
+                    https://getbootstrap.com/docs/5.0/forms/overview/
+                    -->
+                </form>
+            </div>
+        </div>
+    </main>
+    <!--FIN DEL CONTAINER-->
+    <footer>
+        <div class="row">
+            <div id="contactar" class="row titulo">Contáctenos</div>
+            <div class="row info">
+                <div class="col-md-2 numeros">
+                    <div class="row oficina">Oficina: (506) 2594-6432</div>
+                    <div class="row emergencias">Emergencias: 800-SYLVESTER</div>
+                </div>
+                <div class="col-md-2 correos">
+                    <div class="row">veterinariaSylvester@gmail.com</div>
+                    <div class="row">voluntariadoSylvester@gmail.com</div>
+                </div>
+                <div class="col-md-2 redes">
+                    <div class="row">
+                        <a href="https://www.facebook.com/UniversidadTecnicaNacional" target="_blank">
+                            Veterinaria Sylvester
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.instagram.com/utncostarica/?fbclid=IwAR3buUoYcDTtKZReRMnj9xJ40NhidjbEz16DiNbaOCIb0qVTgLvvQ7xbvSw"
+                            target="_blank">
+                            @vet.sylvester
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <credit>&copy; Derechos Reservados ISW-DAW UTN II-2022</credit>
+            <div id="date">Jun 17, 2022</div>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toDateString()
+            </script>
+        </div>
+    </footer>
+
+    <!--VALIDAR FORMULARIO-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"
+        type="text/javascript"></script>
+    <script src="js/messages_es.js"></script>
+
+    <!--ENVIAR CORREO-->
+
+
+    <script src="./js/formulario.js"></script>
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

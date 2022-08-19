@@ -1,0 +1,36 @@
+.container h1 {
+    color: #00A693;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.informacion,
+.secciones,
+.redesSociales {
+    padding-top: 3%;
+}
+
+p {
+    text-align: justify;
+}
+
+.container .redSocial {
+    width: 25px;
+}
+
+.fotocara {
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.redesSociales a {
+    display: block;
+    color: #F2A569;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.redesSociales a:hover {
+    color: #00A693;
+}

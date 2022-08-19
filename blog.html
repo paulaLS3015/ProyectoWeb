@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veterinaria Sylvester</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body onload="obtenerDatos()">
+    <nav class="menu navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="logo" src="images/logo.png" alt="Logotipo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--CUADRO PARA PANTALLAS PEQUEÑAS-->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactar">Contáctenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creador.html">Creador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h1 id="tituloNoticia"></h1><br>
+                <p id="descripcion1"></p><br>
+                <p id="descripcion2"></p><br>
+                <p id="descripcion3"></p><br>
+            </div>
+            <div class="col-md-10" style="border-left: 2px solid #F2A569;">
+                <h1>Blog Informativo</h1>
+                <div class="seccion blog1">
+                    <h2>¡Pitbull es llevado a emergencias con fiebre mortal! | Dr. Jeff, Veterinario | Animal Planet
+                    </h2>
+                    <p>Muy importante llevar a su mascota siempre a tiempo al veterinario, esto podría evitar muchos
+                        inconvenientes futuros. Un cachorro Pitbull de 10 meses es llevado de emergencia con el Dr. Jeff
+                        para intentar bajarle la fiebre que está a punto de matarlo.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uqnOICvJjLI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <br />
+                </div>
+                <div class="seccion blog2">
+                    <h2>Especies en peligro de extinción Costa Rica</h2>
+                    <p>Los científicos consideran que existen dos categorías amplias de procesos que afectan la dinámica
+                        de las poblaciones y que brindan los mecanismos fundamentales para la extinción de especies:
+                        <br><br>
+                        Los Procesos Determinísticos (Relación causa-efecto) <br><br>
+
+                        En este grupo se encuentran las glaciaciones, que afectan a todos los organismos que no toleran
+                        las bajas temperaturas y la intervención directa del ser humano sobre el ambiente. <br>
+
+                        Se refleja en contaminación de ríos, aire o suelo, en la destrucción de hábitats por causa de la
+                        deforestación o de las quemas. <br><br>
+
+                        Los Procesos Estocásticos, como: <br>
+                    <ul>
+                        <li>La incertidumbre demográfica (resultado de eventos imprevisibles en la sobrevivencia y
+                            reproducción
+                            de los individuos).</li>
+                        <li>La incertidumbre ambiental (causada por cambios impredecibles en el clima, en el suministro
+                            de
+                            alimentos, por enfermedades, en las poblaciones de competidores, depredadores y parásitos).
+                        </li>
+                        <li>Incertidumbre genética (cambios en las características genéticas de las especies, como por
+                            ejemplo
+                            las mutaciones).</li>
+                        <li>Catástrofes naturales (inundaciones, terremotos, huracanes, etc.)</li>
+                    </ul>
+                    </p>
+                    <p>Para más información visite <a href="https://areasyparques.com/especies-en-peligro-de-extincion/"
+                            target="_blank">Areas y Parques</a>.</p>
+                    <br />
+                </div>
+                <div class="seccion blog3">
+                    <h2>Los animales del zoológico de Australia van al veterinario | Los Irwin | Animal Planet</h2>
+                    <p>Ya sea para una revisión anual o una emergencia, los veterinarios siempre están listos para
+                        atender a los animales que viven en el zoológico de Australia.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b0wBrIOxABk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <br />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--FIN DEL CONTAINER-->
+    <footer>
+        <div class="row">
+            <div id="contactar" class="row titulo">Contáctenos</div>
+            <div class="row info">
+                <div class="col-md-2 numeros">
+                    <div class="row oficina">Oficina: (506) 2594-6432</div>
+                    <div class="row emergencias">Emergencias: (506) 800-SYLVESTER</div>
+                </div>
+                <div class="col-md-2 correos">
+                    <div class="row">veterinariaSylvester@gmail.com</div>
+                    <div class="row">voluntariadoSylvester@gmail.com</div>
+                </div>
+                <div class="col-md-2 redes">
+                    <div class="row"><a href="https://www.facebook.com/UniversidadTecnicaNacional"
+                            target="_blank">Veterinaria Sylvester</a></div>
+                    <div class="row"><a
+                            href="https://www.instagram.com/utncostarica/?fbclid=IwAR3buUoYcDTtKZReRMnj9xJ40NhidjbEz16DiNbaOCIb0qVTgLvvQ7xbvSw"
+                            target="_blank">@vet.sylvester</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <credit>&copy; Derechos Reservados ISW-DAW UTN II-2022</credit>
+            <div id="date">Jun 17, 2022</div>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toDateString()
+            </script>
+        </div>
+    </footer>
+
+    <script src="./js/noticias.js"></script>
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
